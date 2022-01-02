@@ -104,18 +104,23 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-image: url("../Photos/Background\ Image.jpg")
 }
 
 .block header {
     padding: 20px;
     font-size: 2vw;
     background-color: var(--third-color);
+    background-image: none;
 }
 
 .block p {
     text-align: center;
     font-size: 2vw;
     margin: 1vw;
+    background-image: none;
+    background-color:var(--third-color);
+    padding: 20px;
 }
 
 .block img {
