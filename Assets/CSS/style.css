@@ -79,9 +79,9 @@ header nav ul li a:hover {
     font-size: 48px;
     border-bottom: 3px solid;
     color: var(--first-color);
-    padding-bottom: 20px;
+    padding: auto, auto, auto;
     text-align: left;
-    margin: 0, auto, 15px, auto;
+    margin: 0, auto, 15, auto;
     width: 50%;
 }
 
