@@ -113,21 +113,32 @@ header nav ul li a:hover {
 
 /* Project Blocks Start */
 .first_project {
-    width: 75%;
+    width: 50%;
 }
 
 .other_projects {
-    width: 25%;
+    /* width: 25%; */
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .container {
    padding: 10px;
    display: flex;
-   flex-wrap: wrap;
    justify-content: center;
 }
 
-.block {
+.firstblock {
+    width: 75%;
+}
+
+.run-img {
+    max-width: 500px;
+}
+
+.block, .firstblock {
     width: -moz-fit-content;
     width: fit-content;
     border-style: solid;
@@ -140,11 +151,15 @@ header nav ul li a:hover {
     background-image: url("../Photos/Background\ Image.jpg")
 }
 
+.block {
+    max-width: 300px;
+}
+
 .block img:hover {
     opacity: 85%;
 }
 
-.block header {
+.block h1 {
     padding: 20px;
     font-size: 2vw;
     background-color: var(--third-color);
