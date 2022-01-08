@@ -159,14 +159,14 @@ header nav ul li a:hover {
     opacity: 85%;
 }
 
-.block h1 {
+.block h1, .firstblock h1 {
     padding: 20px;
     font-size: 2vw;
     background-color: var(--third-color);
     background-image: none;
 }
 
-.block p {
+.block p, .firstblock p {
     text-align: center;
     font-size: 2vw;
     margin: 1vw;
