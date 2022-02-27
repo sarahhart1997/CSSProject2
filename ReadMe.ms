@@ -1,5 +1,3 @@
-This is my very first CSS/HTML project which I developed from scratch. 
-# ![alt text](url)
-![my image](http://url/2/image.jpg))
+A digital portfolio containing some of my coding work. 
 
-![Alt text](./assets/photos/readme-photo)
+Live Link: https://sarahhart1997.github.io/my-portfolio/
